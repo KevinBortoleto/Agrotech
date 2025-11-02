@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  font-family: "Saira", sans-serif;
+  color: white;
+  overscroll-behavior: none;
+  touch-action: none;
+}
+
+nav {
+  backdrop-filter: blur(6px);
+  margin: 0 !important;
+  padding: 0.5rem 1rem !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+main {
+  background-image: url("src/img-fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 1rem 2rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+main::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.85));
+  pointer-events: none;
+}
+
+main > * {
+  position: relative;
+  z-index: 1;
+}
+
+main h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+main p {
+  font-size: 1.25rem;
+  max-width: 600px;
+}
+
+h1 strong {
+  color: #32cd32;
+}
+
+.buttonLearnMore {
+  background-color: #32cd32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonLearnMore:hover {
+  background-color: #0ae167;
+  transform: scale(1.05);
+}
+
+.buttonsHome li a:hover {
+  color: #80ef80 !important;
+}
