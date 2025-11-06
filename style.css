@@ -78,6 +78,19 @@ h1 strong {
   color: #32cd32;
 }
 
+.texto-verde {
+  color: #32cd32
+}
+
+.about {
+  text-align: justify;
+  align-items: center;
+}
+
+.time {
+  text-align: center;
+}
+
 .buttonLearnMore {
   background-color: #32cd32;
   color: white;
