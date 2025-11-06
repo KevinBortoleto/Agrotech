@@ -82,9 +82,28 @@ h1 strong {
   color: #32cd32
 }
 
-.about {
+.about-logo{
+  display: flex;
+  justify-content: center;
   text-align: justify;
   align-items: center;
+}
+
+.about-texto{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.texto-superior{
+  font-size: 25px;
+}
+
+.texto-inferior{
+  font-size: 15px;
 }
 
 .time {
