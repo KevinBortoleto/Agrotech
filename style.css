@@ -77,7 +77,7 @@ main p {
 h1 strong {
   color: #32cd32;
 }
-h3{
+h3 {
   padding: 10px;
 }
 h1 {
@@ -88,17 +88,17 @@ h1 {
 }
 
 .texto-verde {
-  color: #32cd32
+  color: #32cd32;
 }
 
-.about-logo{
+.about-logo {
   display: flex;
   justify-content: center;
   text-align: justify;
   align-items: center;
 }
 
-.about-texto{
+.about-texto {
   display: flex;
   justify-content: center;
   text-align: justify;
@@ -107,15 +107,15 @@ h1 {
   padding-left: 150px;
 }
 
-.texto-superior{
+.texto-superior {
   font-size: 25px;
 }
 
-.texto-inferior{
+.texto-inferior {
   font-size: 15px;
 }
 
-.titulo-time{
+.titulo-time {
   font-size: 50px;
   padding: 15px;
 }
@@ -143,9 +143,8 @@ h1 {
   font-size: 9pt;
 }
 
-
 .buttonsHome li a:hover {
-  color: #80ef80 !important;
+  color: #f0f0f0 !important;
 }
 
 .cards {
@@ -153,7 +152,6 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  
 }
 
 .cards .card h2 {
@@ -175,9 +173,8 @@ h1 {
 }
 
 .alinhaTudo {
-  position:absolute;
+  position: absolute;
   bottom: 20px;
-
 }
 
 .card:hover {
@@ -202,11 +199,31 @@ h1 {
   margin: 8px 0;
 }
 
-
 .cards .premium h2 {
   color: #5ce1e6;
 }
 
 .cards .deluxe h2 {
   color: #ffde59;
+}
+
+.foto-kevin,
+.foto-rian,
+.foto-arthur,
+.foto-renato {
+  border-radius: 20;
+}
+
+.about,
+.produtos,
+.time,
+.contato {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 95vh;
 }
