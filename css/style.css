@@ -24,7 +24,7 @@ nav {
 }
 
 main {
-  background-image: url("src/img-fundo.png");
+  background-image: url("/img/img-fundo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -226,4 +226,8 @@ h1 {
   align-items: center;
   justify-content: space-around;
   min-height: 95vh;
+}
+
+.input-error {
+  border: 2px solid #ff3b3b !important;
 }
